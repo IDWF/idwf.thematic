@@ -6,4 +6,13 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <plone:behavior
+        title="IDWF Themes"
+        description="IDWF Thematic Categories"
+        provides=".idwfthemes.IIDWFThemes"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".idwfthemes.IIDWFThemes"
+        />
+
+
 </configure>
