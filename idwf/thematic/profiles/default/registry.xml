@@ -6,8 +6,9 @@
     <value key="enabled">True</value>
     <value key="sortable">False</value>
     <value key="operations">
-        <element>plone.app.querystring.operation.string.is</element>
+        <element>plone.app.querystring.operation.selection.is</element>
     </value>
+    <value key="vocabulary">idwf.thematic.thematic</value>
     <value key="group">Metadata</value>
   </records>
 </registry>
