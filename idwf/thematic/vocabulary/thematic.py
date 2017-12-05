@@ -5,6 +5,8 @@ from zope.schema.interfaces import IVocabularyFactory
 from zope.component import getUtility
 from z3c.formwidget.query.interfaces import IQuerySource
 
+from idwf.thematic import MessageFactory as _
+
 class thematic(grok.GlobalUtility):
     grok.name('idwf.thematic.thematic')
     grok.implements(IVocabularyFactory)
@@ -12,64 +14,64 @@ class thematic(grok.GlobalUtility):
     _terms = [
         {
             'value': 'c189',
-            'title': 'C189 Ratification',
+            'title': _(u'C189 Ratification'),
         },
         {
             'value': 'child domestic workers',
-            'title': 'Child Domestic Workers',
+            'title': _(u'Child Domestic Workers'),
         },
         {
             'value': 'collective bargaining',
-            'title': 'Collective Bargaining',
+            'title': _(u'Collective Bargaining'),
         },
         {
             'value': 'communication',
-            'title': 'Communication',
+            'title': _(u'Communication'),
         },
         {
             'value': 'hoursofwork',
-            'title': 'Days Off & Hours of work',
+            'title': _(u'Days Off & Hours of work'),
         },
         {
             'value': 'dignity',
-            'title': 'Dignity of Domestic Workers',
+            'title': _(u'Dignity of Domestic Workers'),
         },
         {
             'value': 'bills',
-            'title': 'Domestic Workers Bills',
+            'title': _(u'Domestic Workers Bills'),
         },
         {
             'value': 'working conditions',
-            'title': 'Employment & Working Conditions',
+            'title': _(u'Employment & Working Conditions'),
         },
         {
             'value': 'forced labour',
-            'title': 'Forced Labour',
+            'title': _(u'Forced Labour'),
         },
         {
             'value': 'history',
-            'title': 'History',
+            'title': _(u'History'),
         },
         {   'value': 'migrant',
-            'title': 'Migrant Domestic Workers',
+            'title': _(u'Migrant Domestic Workers'),
             },
         {   'value': 'occupational safety',
-            'title': 'Occupational Safety & Health',
+            'title': _(u'Occupational Safety & Health'),
             },
         {   'value': 'research',
-            'title': 'Participatory Research',
+            'title': _(u'Participatory Research'),
             },
         {   'value': 'private agencies',
-            'title': 'Private Employment Agencies',
+            'title': _(u'Private Employment Agencies'),
             },
         {   'value': 'organize',
-            'title': 'Rights to Organize',
+            'title': _(u'Rights to Organize'),
             },
         {   'value': 'harassment',
-            'title': 'Sexual Harassment',
+            'title': _(u'Sexual Harassment'),
             },
         {   'value': 'worker rights',
-            'title': "Workers' Rights",
+            'title': _(u"Workers' Rights"),
             },
         ]
 
