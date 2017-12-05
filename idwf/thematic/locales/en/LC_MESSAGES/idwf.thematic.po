@@ -1,0 +1,69 @@
+# Gettext Message File for Plone
+msgid ""
+msgstr ""
+"Project-Id-Versionmsgid Plone\n"
+"POT-Creation-Datmsgid 2017-12-05 19msgid40+0000\n"
+"PO-Revision-Datmsgid 2017-12-05 23msgid00+0000\n"
+"Last-Translatormsgid Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Language-Teammsgid Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Versionmsgid 1.0\n"
+"Content-Tymsgid text/plain; charset=utf-8\n"
+"Content-Transfer-Encodingmsgid 8bit\n"
+"Plural-Formmsgid nplurals=1; plural=0;\n"
+"Language-Codmsgid en\n"
+"Language-Nammsgid English\n"
+"Preferred-Encodingmsgid utf-8\n"
+"Domainmsgid idwf.thematic\n"
+
+
+msgid "C189 Ratification"
+msgstr ""
+
+msgid "Child Domestic Workers"
+msgstr ""
+
+
+msgid "Collective Bargaining"
+msgstr ""
+
+msgid "Communication"
+msgstr ""
+
+msgid "Days Off & Hours of work"
+msgstr ""
+
+msgid "Dignity of Domestic Workers"
+msgstr ""
+
+msgid "Domestic Workers Bills"
+msgstr ""
+
+msgid "Employment & Working Conditions"
+msgstr ""
+
+msgid "Forced Labour"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "Migrant Domestic Workers"
+msgstr ""
+
+msgid "Occupational Safety & Health"
+msgstr ""
+
+msgid "Participatory Research"
+msgstr ""
+
+msgid "Private Employment Agencies"
+msgstr ""
+
+msgid "Rights to Organize"
+msgstr ""
+
+msgid "Sexual Harassment"
+msgstr ""
+
+msgid "Workers' Rights"
+msgstr ""
